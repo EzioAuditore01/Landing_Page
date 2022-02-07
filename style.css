@@ -1,0 +1,44 @@
+body {
+
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.top,
+.welcome {
+    /*background-color: #1f2937; */
+    border-style: solid;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    margin: 8px;
+}
+
+#logo {
+    margin: 8px ;
+}
+
+.awesome {
+    display: flex;
+}
