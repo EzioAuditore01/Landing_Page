@@ -1,1 +1,1 @@
-# The-Odin-Project---Landing-page
+# The_Odin_Project-Landing-page
