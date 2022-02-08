@@ -1,8 +1,7 @@
 body {
 
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+   margin: 0px;
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
@@ -10,21 +9,83 @@ body {
     
 }
 
+.top #logo {
+    display: flex;
+    width: 100px;
+    height: auto;
+    zoom: 150%;
+    padding: 4px;
+    margin: 4px 4px 4px 8px ;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+html {
+    background-color:#f498b8 ;
+}
+
+
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.images {
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
 .top,
 .welcome {
     /*background-color: #1f2937; */
-    border-style: solid;
+    
 }
 .top {
     display: flex;
     justify-content: space-between;
+    background-color: black;
     
+    
+}
+
+#head-text {
+    display: flex;
+    align-self: center;
+    justify-self: flex-end;
+    font-family: 'Dancing Script', cursive;
+    color: blanchedalmond;
+    font-size: 50px;
+    padding: 8px;
+    margin: 4px 4px 4px 100px ;
+}
+
+div {
+    display: flex;
+}
+
+img {
+
+   
 }
 
 
 .links {
     display: flex;
     justify-content: space-between;
+    margin-right: 8px;
+    
 }
 
 ul {
@@ -33,6 +94,7 @@ ul {
 
 a {
     margin: 8px;
+    color: blanchedalmond;
 }
 
 #logo {
