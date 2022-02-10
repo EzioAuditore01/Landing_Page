@@ -14,7 +14,7 @@ While doing this project I have developed following skills:
 
 Live 
 
-https://ezioauditore
+https://ezioauditore01.github.io/Landing_Page/
 
 
 
