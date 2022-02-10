@@ -11,9 +11,23 @@ body {
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    text-decoration: none;
     
     
 }
+
+.first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
 
 button {
     margin: 6px;
@@ -27,6 +41,10 @@ button {
     
 }
 
+img:hover {
+    transform: translateY(-0.25em);
+}
+
 button:hover{
     border-color: purple;
     box-shadow: 0 0.5em 0.5em -0.4em purple;;
@@ -37,6 +55,7 @@ button:hover{
 max-width: 500px;
 max-height: 500px;
 margin-bottom: 10px;
+line-height: 1.4;
 }
 
 
@@ -44,7 +63,8 @@ margin-bottom: 10px;
 .welcome {
    
     margin: 4px 4px 4px 40px ;
-    margin-right: 150px;
+    margin-right: 100px;
+    margin-left: 160px;
     padding: 4px;
     color: black;
 }
@@ -56,13 +76,12 @@ margin-bottom: 10px;
     height: auto;
     zoom: 100%;
     padding: 4px;
-    margin: 4px 4px 4px 130px ;
+    margin: 4px 4px 4px 160px ;
     flex-shrink: 0;
     flex-grow: 0;
 }
 
-html {
-    background-color:#f498b8 ;
+html {fa
 }
 
 
@@ -70,7 +89,9 @@ html {
     display: flex;
     justify-content: center;
     color:black;
-    font-size: 24px;
+    font-size: 30px;
+
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -88,7 +109,11 @@ html {
     justify-content: space-evenly;
     
 
-   
+}
+
+
+.images img {
+    transition: all 0.25s;
 }
 
 
@@ -99,8 +124,9 @@ html {
     height: 250px;
     border-radius: 2%;
     background:#FFE156;
-    padding:8px;
+    
     border:1px solid #FFE156;
+    padding:8px;
 
 } 
 
@@ -176,6 +202,7 @@ html {
     font-family: 'Dancing Script', cursive;
     color: blanchedalmond;
     font-size: 54px;
+    font-weight: 600px; 
     padding: 8px;
     margin: 4px 4px 4px 120px ;
 }
@@ -195,7 +222,12 @@ html {
     zoom: 100%;
     border-radius: 2%;
     margin-left: 30px;
-    margin-right: 50px;
+    margin-right: 400px;
+    padding:8px;
+    border-radius: 2%;
+    background:#FFE156;
+    
+    border:1px solid #FFE156;
 }
 .links {
     display: flex;
@@ -210,7 +242,8 @@ ul {
 
 a {
     margin: 20px;
-    color: blanchedalmond
+    color: blanchedalmond;
+    
 }
 
 #logo {
@@ -220,6 +253,6 @@ a {
 .awesome {
     display: flex;
     
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 30px;
 }
