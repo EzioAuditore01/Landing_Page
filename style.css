@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: Roboto, sans-serif;
-    background-image:url('../Landing_page/img/back5.jpg');
+    background-image:url(img/background.jpg);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
