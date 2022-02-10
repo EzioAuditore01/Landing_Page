@@ -1,9 +1,24 @@
-﻿This is the the code i wrote regarding requirements by The Odin Project under foundations path.
+﻿
+Project:Landing page
+
+This is the the code i wrote regarding requirements by The Odin Project under foundations path.
 While doing this project I have developed following skills:
 
-    • Further development of Git and Github project management
+    • Further development of Git and GitHub project management
     • Structuring HTML documents for further development
-    • Using flex box and responsive to achieve the wanted designed
-    • Improved CSS skills regarding selectors
+    • Using flex box and responsive design to achieve the goal.
+    • Improved CSS skills regarding selectors,image manipulation
+    • Improved other useful CSS tricks like transitions,hover effect,
+      position property,google fonts etc…
+
+
+Live 
+
+https://ezioauditore
+
+
+
+
+
 
 
