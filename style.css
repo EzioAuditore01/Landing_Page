@@ -1,19 +1,78 @@
 body {
-
     display: flex;
-   margin: 0px;
+    margin: 0px;
     flex-direction: column;
     min-height: 100vh;
-   
     font-family: Roboto, sans-serif;
-
     background-image:url('../Landing_page/img/back5.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    text-decoration: none;
-    
-    
+    text-decoration: none;     
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+}
+
+.header #logo {
+    display: flex;
+    width: 130px;
+    height: auto;
+    padding: 4px;
+    margin: 4px 4px 4px 160px ;
+}
+
+#header-text {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    color: blanchedalmond;
+    font-size: 54px;
+    font-weight: 600px; 
+    padding: 8px;
+    margin: 4px 4px 4px 120px ;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px; 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    margin: 20px;
+    color: blanchedalmond;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.welcome {
+    margin: 4px 4px 100px 160px ;
+    padding: 4px;
+    color: black;
+}
+
+.welcome-text{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.text {
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 .first,
@@ -27,8 +86,6 @@ body {
     gap: 8px;
 }
 
-
-
 button {
     margin: 6px;
     background: none;
@@ -37,8 +94,42 @@ button {
     border: 2px solid cornflowerblue;
     border-radius: 7%;
     padding: 0.5em 1em;
+    transition: all 0.25s;   
+}
+
+#placeholder{
+    display: flex;
+    max-height: 300px;
+    border-radius: 2%;
+    margin-left: 30px;
+    margin-right: 400px;
+    padding:8px;
+    border-radius: 2%;
+    background:#FFE156;   
+    border:1px solid #FFE156;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px ;  
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-size: 30px;
+     font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-evenly;
     transition: all 0.25s;
-    
 }
 
 img:hover {
@@ -48,67 +139,7 @@ img:hover {
 button:hover{
     border-color: purple;
     box-shadow: 0 0.5em 0.5em -0.4em purple;;
-    transform: translateY(-0.25em);
-    
-}
-.text {
-max-width: 500px;
-max-height: 500px;
-margin-bottom: 10px;
-line-height: 1.4;
-}
-
-
-
-.welcome {
-   
-    margin: 4px 4px 4px 40px ;
-    margin-right: 100px;
-    margin-left: 160px;
-    padding: 4px;
-    color: black;
-}
-
-.top #logo {
-    display: flex;
-    
-    width: 130px;
-    height: auto;
-    zoom: 100%;
-    padding: 4px;
-    margin: 4px 4px 4px 160px ;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-
-html {fa
-}
-
-
-.random {
-    display: flex;
-    justify-content: center;
-    color:black;
-    font-size: 30px;
-
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px ;
-    
-}
-
-.images {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    justify-content: space-evenly;
-    
-
+    transform: translateY(-0.25em)   
 }
 
 
@@ -116,38 +147,28 @@ html {fa
     transition: all 0.25s;
 }
 
-
-    
-
 .galaxies{
     width: 250px;
     height: 250px;
     border-radius: 2%;
     background:#FFE156;
-    
     border:1px solid #FFE156;
     padding:8px;
-
 } 
 
 
 .quote {
     display: flex;
     flex-direction:column ;
-    
     font-size: 28px;
-    margin-bottom: 10px;
     margin-top: 30px;
     background-color: #BEA7E5;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-   
-    
+    margin-bottom: 30px; 
 }
 
-.quote div {
-    
+.quote div {  
     margin: 30px;
     margin-bottom: 15px;
     max-width: 800px;
@@ -163,13 +184,13 @@ html {fa
     display: flex;
     align-items: flex-start;
     justify-self:  flex-start;
-    margin: 15px;
+    margin-bottom: 30px;
     font-size:20px;
 }
 
 .bottom {
     display: flex;
-  gap: 30px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     border:1px solid black;
@@ -177,7 +198,6 @@ html {fa
     padding: 30px;
     background-color: rebeccapurple;
     border-radius: 24px;
-
     flex-shrink: 1;;
 }
 
@@ -187,72 +207,3 @@ html {fa
     margin-bottom: 10px;
 }
 
-.top {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    
-    
-}
-
-#head-text {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    font-family: 'Dancing Script', cursive;
-    color: blanchedalmond;
-    font-size: 54px;
-    font-weight: 600px; 
-    padding: 8px;
-    margin: 4px 4px 4px 120px ;
-}
-
-.head-text-2{
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-
-
-#placeholder{
-    display: flex;
-   
-    max-width: 600px;
-    max-height: 300px;
-    zoom: 100%;
-    border-radius: 2%;
-    margin-left: 30px;
-    margin-right: 400px;
-    padding:8px;
-    border-radius: 2%;
-    background:#FFE156;
-    
-    border:1px solid #FFE156;
-}
-.links {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 130px;
-    
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    margin: 20px;
-    color: blanchedalmond;
-    
-}
-
-#logo {
-    margin: 8px ;
-}
-
-.awesome {
-    display: flex;
-    
-    justify-content: space-between;
-    margin-top: 30px;
-}
