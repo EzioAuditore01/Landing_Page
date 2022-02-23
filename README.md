@@ -2,7 +2,7 @@
 Project:Landing page
 
 This is the the code i wrote regarding requirements by The Odin Project under foundations path.
-While doing this project I have developed following skills:<br />
+While doing this project I have developed following skills:
 
     • Further development of Git and GitHub project management
     • Structuring HTML documents for further development
